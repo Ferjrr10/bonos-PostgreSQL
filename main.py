@@ -47,7 +47,7 @@ for name in urls.keys():
 # Function to connect to PostgreSQL
 def connect_psql():
     try:
-        host = "192.168.1.7"
+        host = "1.1.1."
         username = "root"
         password = "root"
         database = "postgres"
